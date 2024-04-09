@@ -1,102 +1,431 @@
 {
-  "transactions": [
+  "Toys": [
     {
-      "id": 1,
-      "date": "2019-12-01",
-      "description": "Paycheck from Bob's Burgers",
-      "category": "Income",
-      "amount": 1000
+
+      "name": "Toy Train Set",
+      "category": "Toys",
+      "price": 2999,
+      "description": "A fun toy train set with tracks and locomotive."
     },
     {
-      "id": 2,
-      "date": "2019-12-01",
-      "description": "South by Southwest Quinoa Bowl at Fresh & Co",
-      "category": "Food",
-      "amount": -10.55
+     
+      "name": "hot wheels track set",
+      "category": "Toys",
+      "price": 49999,
+      "description": "A fun toy car set with road tracks."
     },
     {
-      "id": 3,
-      "date": "2019-12-02",
-      "description": "South by Southwest Quinoa Bowl at Fresh & Co",
-      "category": "Food",
-      "amount": -10.55
+      
+      "name": "puzzles",
+      "category": "Toys",
+      "price": 1999,
+      "description": "A set of fun puzzles to engage your childs mind."
     },
     {
-      "id": 4,
-      "date": "2019-12-04",
-      "description": "Sunglasses, Urban Outfitters",
-      "category": "Fashion",
-      "amount": -24.99
+      
+      "name": "Action figures",
+      "category":"Toys",
+      "price":3999,
+      "description":"Fun action figures children can use to simulate playing with their favorite heroes"
+    }
+  ],
+  "clothes": [
+    {
+      "Body suits":[
+          {
+              
+              "name":"sleepsuits",
+              "category":"bodysuits",
+              "price":3999,
+              "description":"Comfy body suits worn by kids when sleeping"
+          },
+          {
+              
+              "name":"playsuits",
+              "category":"bodysuits",
+              "price":3499,
+              "description":"Comfy suit worn by kids when going out to play"
+          }
+      ]
     },
     {
-      "id": 5,
-      "date": "2019-12-06",
-      "description": "Venmo, Alice Pays you for Burrito",
-      "category": "Food",
-      "amount": 8.75
+      "Hats":[
+          {
+              
+              "name":"beanie hat",
+              "category":"hats",
+              "price":500,
+              "description":"Crafted with utmost care and attention, this beanie hat with a scarf combo ensures your baby stays warm and toasty throughout the chilly months",
+              "image":"https://zawadibabyshop.co.ke/wp-content/uploads/2023/06/Beanie-Hat-with-a-scarf-for-babies-2.jpg"
+          },
+          {
+              
+              "name":"knitted baby hat",
+              "category":"hats",
+              "price":250,
+              "description":"Our Warm Knitted Baby Caps are the perfect accessory to keep your little one cosy and stylish.",
+              "image":"https://zawadibabyshop.co.ke/wp-content/uploads/2022/06/Warm-Knitted-Baby-Caps.jpg"
+          },
+          {
+              
+              "name":"bow hat ",
+              "category":"hats",
+              "price":400,
+              "description":"A versatile and stylish accessory, suitable for photoshoots, special occasions, or casual outings.",
+              "image":"https://zawadibabyshop.co.ke/wp-content/uploads/2023/06/Bow-Hat-Newborn-2.jpg"
+          }
+      ]
     },
     {
-      "id": 6,
-      "date": "2019-12-06",
-      "description": "Chipotle",
-      "category": "Food",
-      "amount": -17.59
+      "Outfits":[
+          {
+              
+              "name":"tutu skirt",
+              "category":"outfits girls",
+              "price":1800,
+              "description":"Create picture-perfect moments with our Tutu Skirt 3-Piece Set. Featuring a fluffy tutu skirt, a comfy long-sleeve top, and an adorable headband, this set offers effortless style and unmatched comfort. Crafted with soft materials, it ensures your baby girl stays cozy while looking irresistibly cute",
+              "image":"https://zawadibabyshop.co.ke/wp-content/uploads/2023/06/tutu-skirts-for-girls.jpg"
+          },
+          {
+              
+              "name":"dresses",
+              "category":"outfits girls",
+              "price":1500,
+              "description":" This elegant dress features a fashionable flower print, comfortable long sleeves, and an exquisite bow-tie detail. With this outfit, your baby girl will make lasting memories and radiate confidence.",
+              "image":"https://zawadibabyshop.co.ke/wp-content/uploads/2023/06/Baby-Girl-Dresses-2.jpg"
+          },
+          {
+              
+              "name":"suspender dress",
+              "category":"outfit girls",
+              "price":2100,
+              "description":"The dress features a classic design that is perfect for various occasions, such as family gatherings, parties, or even casual outings.",
+              "image":"https://zawadibabyshop.co.ke/wp-content/uploads/2022/07/Ankara-suspender-dress-1.jpg"
+          },
+          {
+             
+              "name":"sweatsuit",
+              "category":"outfit boy",
+              "price":1800,
+              "description":"Made from soft fabric, this adorable set ensures gentle comfort for your little prince.",
+              "image":"https://zawadibabyshop.co.ke/wp-content/uploads/2022/06/baby-sweatsuit-1.jpg"
+          },
+          {
+              
+              "name":"jeans and shirt set",
+              "category":"outfit boy",
+              "price":2500,
+              "description":"Made from premium quality fabric, this adorable set ensures superior comfort for your little one.",
+              "image":  "https://zawadibabyshop.co.ke/wp-content/uploads/2022/06/baby-boy-jeans-and-shirt-featured.jpg"
+              
+          }
+      ]
     },
     {
-      "id": 7,
-      "date": "2019-12-07",
-      "description": "Birthday Check from Grandma",
-      "category": "Gift",
-      "amount": 50
+      "Receiving seta":[
+          {
+             
+              "name":"11-piece receiving set",
+              "category":"receiving set",
+              "price":1300,
+              "description":"The set includes 2 trousers, 2 sweaters, 1 bib, 1 hat, a pair of mittens, 1 overall, 1 baby shawl, a belt, and a pair of socks.",
+              "image":"https://zawadibabyshop.co.ke/wp-content/uploads/2023/02/11-Piece-Receiving-Sets-5.jpg"
+          },
+          {
+              
+              "name":"8-piece fleece receiving set",
+              "category":"receiving set",
+              "price":1500,
+              "description":"Keep your little one snug and comfortable with our 8-piece Fleece Receiving Set. Each receiving blanket is made from high-quality fleece material that feels gentle against baby’s delicate skin that is perfect for swaddling, cuddling, and tucking your baby in for a comfortable nap. Lightweight and breathable, this set helps regulate baby’s body temperature to ensure a restful sleep. ",
+              "image":"https://zawadibabyshop.co.ke/wp-content/uploads/2023/02/8-Piece-Fleece-Receiving-Set.jpg"
+          },
+          {
+              
+              "name":"8-piece cotton receiving set",
+              "category":"receiving set",
+              "price":1500,
+              "description":"Made from soft and gentle 100% cotton, this versatile set includes receiving blankets, bibs, washcloths, and burp cloths.",
+              "image":"https://zawadibabyshop.co.ke/wp-content/uploads/2022/06/8-pcs-cotton-receiving-set-4-1.jpg"
+          }
+          
+      ]
     },
     {
-      "id": 8,
-      "date": "2019-12-09",
-      "description": "Lyft Ride",
-      "category": "Transportation",
-      "amount": -13.25
+      "Rompers":[
+          {
+              
+              "name":"fleece romper",
+              "category":"rompers",
+              "price":850,
+              "description":"Crafted from premium, high-quality fleece material, gentle on delicate skin",
+              "image":"https://zawadibabyshop.co.ke/wp-content/uploads/2023/02/Fleece-Romper-5.jpg"
+          },
+          {
+              
+              "name":"Heavy baby romper",
+              "category":"rompers",
+              "price":1500,
+              "description":"High-quality materials: Thick, breathable fabrics provide warmth and comfort for your baby during colder months. ",
+              "image":"https://zawadibabyshop.co.ke/wp-content/uploads/2022/07/Heavy-Baby-Rompers-1.jpg"
+          },
+          {
+             
+              "name":"3-piece cotton rompers",
+              "category":"rompers",
+              "price":1500,
+              "description":"Introducing our 3-piece Cotton Rompers set, made from high-quality cotton materials, ensuring comfort and durability for your baby.",
+              "image":"https://zawadibabyshop.co.ke/wp-content/uploads/2022/07/3-piece-Cotton-Rompers-7.jpg"
+          }
+          
+      ]
+    }
+  
+  ],
+  "Nursery decor":[
+    {
+      "Baby cot":[
+        {
+         
+          "name":"Wooden baby cot",
+          "category":"baby cot",
+          "price":9300,
+          "description":"Provide your baby with a timeless and secure sleep environment with our Wooden Baby Cot.It has a lassic design with modern safety features, crafted with care and precision",
+          "image":"https://zawadibabyshop.co.ke/wp-content/uploads/2022/06/wooden-baby-cot.jpg.webp"
+        },
+        {
+          
+          "name":"Dubai baby cot set",
+          "category":"baby cot",
+          "price":16500,
+          "description":"Made from high-quality materials, ensuring safety, durability, and comfort for your baby.It features a stunning design with intricate detailing and elegant curves, making it a centrepiece in your baby’s nursery",
+          "image":"https://zawadibabyshop.co.ke/wp-content/uploads/2022/07/Dubai-baby-cot-set-2.jpg"
+        },
+        {
+          
+          "name":"Wooden baby cot with beedings",
+          "category":"baby cot",
+          "price":18500,
+          "description":"Premium quality construction with versatile quality design ",
+          "image":"https://zawadibabyshop.co.ke/wp-content/uploads/2022/06/Baby-Cot-Bumpers-Kenya-1.jpg"
+        },
+        {
+         
+          "name":"MDF baby cot",
+          "category":"baby cot",
+          "price":15000,
+          "description":"Provide your baby with a stylish and safe sleeping space with our MDF Baby Cot.",
+          "image":"https://zawadibabyshop.co.ke/wp-content/uploads/2022/06/MDF-baby-cot-2-2.jpg"
+        },
+        {
+          
+          "name":"MDF Baby Cot With Chest of Drawers",
+          "category":"baby cot",
+          "price":30500,
+          "description":"All-in-one nursery solution for comfortable sleeping and practical storage",
+          "image":"https://zawadibabyshop.co.ke/wp-content/uploads/2022/07/MDF-Baby-Cot-With-Chest-of-Drawers-v2.jpg"
+        }
+      ],
+      "Baby drawers":[
+        {
+          
+          "name":"Chest of drawers",
+          "category":"drawers",
+          "price":5000,
+          "description":"Constructed from high-quality, durable materials for longevity and sturdiness",
+          "image":"https://zawadibabyshop.co.ke/wp-content/uploads/2022/07/Chest-of-Drawers-3-1.jpg"
+        },
+        {
+         
+          "name":"MDF Chest of Drawers 4×4 feet",
+          "category":"drawers",
+          "price":16500,
+          "description":"Ample Storage Space: Five spacious drawers offer plenty of room to store baby essentials, keeping your nursery tidy and organized. Say goodbye to cluttered spaces!",
+          "image":"https://zawadibabyshop.co.ke/wp-content/uploads/2022/07/MDF-Chest-of-Drawers-5-1.jpg"
+        }
+      ],
+      "Co sleeper": [
+        {
+          
+          "name":"Simple Bassinet with music and Vibrations",
+          "category":"co sleeper",
+          "price":6500,
+          "description":"Introducing the Simple Bassinet – the perfect sleep solution for your little one. Designed with both comfort and convenience in mind, this bassinet comes equipped with soothing music and gentle vibrations to help your baby drift off to dreamland peacefully",
+          "image":"https://zawadibabyshop.co.ke/wp-content/uploads/20…3/Simple-Bassinet-with-music-and-Vibrations-3.jpg"
+        },
+        {
+          
+          "name":"Baby Cosleeper With Removable Mosquito Net",
+          "category":"co sleeper",
+          "price":2500,
+          "description":"Create a cosy and comfortable space for your little one with our Baby Cosleeper With Removable Mosquito Net.",
+          "image":"https://zawadibabyshop.co.ke/wp-content/uploads/2024/01/baby-co-sleeper.jpg"
+        },
+        {
+          
+          "name":"Foldable Baby Tent Bed",
+          "category":"co sleeper",
+          "price":1000,
+          "description":"Our Foldable Baby Tent Bed offers a safe and comfortable sleeping space for your baby, whether at home or on the go.",
+          "image":"https://zawadibabyshop.co.ke/wp-content/uploads/2022/05/Foldable-Baby-Tent-Bed-3-1536x1378.jpg"
+        }
+      ],
+        "Plush pillows":[
+          {
+            
+            "name":"U shaped pregnancy pillow",
+            "category":"pillow",
+            "price":3000,
+            "description":"Experience unparalleled comfort during your pregnancy with our U-shaped pregnancy pillow. Specially designed to provide optimal support for your back, hips, and belly, this pillow is a must-have for expectant moms. Its unique U shape offers versatile positioning, ensuring a restful night’s sleep. Crafted with premium materials and attention to detail, our pregnancy pillow is the perfect companion for your journey to motherhood.",
+            "image":"https://zawadibabyshop.co.ke/wp-content/uploads/2022/06/C-shaped-pregnancy-pillow-2.webp"
+          },
+          {
+            
+            "name":"Anti Flat head baby pillow",
+            "price":300,
+            "description":"Our Anti Flat Head Baby Pillow provides optimal support and comfort to prevent flat head syndrome in infants.",
+            "image":"https://zawadibabyshop.co.ke/wp-content/uploads/2022/06/Anti-Flat-head-baby-pillow-2.jpg"
+          },
+          {
+            
+            "name":"Infant shaping baby pillow",
+            "price":500,
+            "description":"Our Infant Shaping Baby Pillow is specially designed to promote healthy head development in infants",
+            "image":"https://zawadibabyshop.co.ke/wp-content/uploads/2022/06/Infant-shaping-baby-pillow-2-1.jpg"
+          }
+        ]
+    }
+  ],
+  "Diapering":[
+    {
+      "Diaper bags":[
+        {
+          
+          "name":"Chicco Diaper Bag: The Ultimate Companion for Modern Parents",
+          "price":2500,
+          "description":"The Chicco Diaper Bag is a stylish and practical accessory for modern parents. It offers ample space with multiple compartments for organized storage, is made from durable material for longevity, and serves multiple purposes beyond a diaper bag, making it a worthwhile investment.",
+          "image":"https://zawadibabyshop.co.ke/wp-content/uploads/2024/03/chicco-diaper-bag.jpg"
+        },
+        {
+          
+          "name":"2 in 1 Diaper Bag",
+          "price":3000,
+          "description":"Made from high-quality, durable, and water-resistant materials for longevity and safety.It spacious main compartment with multiple pockets and compartments for diapering essentials",
+          "image":"https://zawadibabyshop.co.ke/wp-content/uploads/2022/07/baby-bags-for-travel.jpg"
+        },
+        {
+          
+          "name":"5 In 1 Baby Diaper Bag",
+          "price":2000,
+          "description":"Made from high-quality, durable, and water-resistant materials for the safety and security of baby’s essentials.Multiple compartments and pockets to organize baby’s diapers, wipes, bottles, clothes, and toys for easy access",
+          "image":"https://zawadibabyshop.co.ke/wp-content/uploads/2022/07/5-in-1-diaper-bags-2.jpg"
+        },
+        {
+          
+          "name":"Mommy Backpack",
+          "price":2000,
+          "description":"With its spacious and organized storage, you can easily carry all your essentials and keep them within reach.Made from durable and high-quality materials, this backpack is built to last and withstand daily use.",
+          "image":"https://zawadibabyshop.co.ke/wp-content/uploads/2022/06/mommy-backpack-1.jpg"
+        }
+      ],
+      "Diapers":[
+        {
+          
+          "name":"Washable Diapers",
+          "price":500,
+          "description":"Designed for ultimate comfort and protection while reducing waste and saving money. Made from high-quality, super-soft, and absorbent materials for a gentle touch on baby’s skin",
+          "image":"https://zawadibabyshop.co.ke/wp-content/uploads/2022/07/Washable-diaper-1-1.jpg"
+        }
+      ],
+      "Potty Training":[
+        {
+          
+          "name":"3 in 1 Potty Training Seat and Ladder",
+          "price":3200,
+          "description":"Make potty training a breeze with our innovative 3 in 1 Potty Training Seat and Ladder. This all-in-one solution is designed to assist parents and make the transition from diapers to toilet an exciting adventure for your little one.",
+          "image":"https://zawadibabyshop.co.ke/wp-content/uploads/2023/10/3-in-1-potty-training-seat-and-ladder-2.jpg"
+        },
+        {
+          
+          "name":"Introducing the Perfect Potty for Toddlers",
+          "price":3500,
+          "description":"Our “Perfect Potty for Toddlers” is the ideal choice for your little one’s transition from diapers to using the toilet.Comfort & Convenience – Our potty is designed with your child’s comfort in mind. It features a comfortable, ergonomic design that ensures your toddler can sit comfortably while learning to use the toilet.",
+          "image":"https://zawadibabyshop.co.ke/wp-content/uploads/2023/10/Toilet-like-potty-for-toddlers-Featured.jpg"
+        },
+        {
+          
+          "name":"Giraffe Potty Training Seat",
+          "price":3600,
+          "description":"Introducing the Giraffe Potty Training Seats Wheels Racer Step with Removable Tray and Closing Lid for Boys and Girls – the Perfect Solution for Stress-Free Potty Training!",
+          "image":"https://zawadibabyshop.co.ke/wp-content/uploads/2023/10/Big-size-potty-with-wheels-3.jpg"
+        },
+        {
+         
+          "name":"Potty For Babies",
+          "price":1500,
+          "description":"Ergonomic Design: Crafted with your baby’s comfort in mind, this classic potty boasts an ergonomic design that ensures your little one sits comfortably and securely. Easy to Clean: Say goodbye to mess and stress. Our potty is easy to clean, featuring a removable, washable inner container for quick and hygienic maintenance.",
+          "image":"https://zawadibabyshop.co.ke/wp-content/uploads/2023/10/potty-for-babies-1.jpg"
+        },
+        {
+         
+          "name":"Toy Potty",
+          "price":1500,
+          "description":"Crafted from high-quality, non-toxic materials for safety and comfort.Ergonomic design with smooth, rounded edges for a gentle touch on child’s skin.Compact size and lightweight construction for easy portability and storage",
+          "image":"https://zawadibabyshop.co.ke/wp-content/uploads/2022/07/toy-potty-2.jpg"
+        }
+      ]
+    }
+  ],
+  "Travel gear":[
+    {
+      
+      "name":"Baby car seat",
+      "price":12500,
+      "description":"Made from high-quality materials to ensure safety, comfort, and durability.Suitable for infants and toddlers, with an adjustable harness and headrest for a perfect fit",
+      "image":"https://zawadibabyshop.co.ke/wp-content/uploads/2022/07/Baby-car-seat-1.jpg"
     },
     {
-      "id": 9,
-      "date": "2019-12-11",
-      "description": "Paycheck from Bob's Burgers",
-      "category": "Income",
-      "amount": 1000
+     
+     "name":"3 in 1 baby walker",
+     "price":6500,
+     "description":"Suitable for infants and toddlers, with adjustable height settings to accommodate growth.Functions as a walker, pusher, and rocker, providing multiple modes of play and development",
+     "image":"https://zawadibabyshop.co.ke/wp-content/uploads/2022/07/IMG-20220713-WA0029.jpg"
     },
     {
-      "id": 10,
-      "date": "2019-12-16",
-      "description": "Tickets, Flatiron Multiplex Cinemas",
-      "category": "Entertainment",
-      "amount": -24
+      
+      "name":"Foldable Baby Walker With Wheels, Music and Toys",
+      "price":3500,
+      "description":"Designed to nurture their curiosity, this versatile baby walker comes with a world of features to keep them entertained and aid their first steps",
+      "image":"https://zawadibabyshop.co.ke/wp-content/uploads/2023/10/Foldable-Baby-Walker-with-Toys-Music-6.jpg"
+    }
+  ],
+  "Shoes":[
+    {
+      
+      "name":"Baby Boys Shoes",
+      "price":500,
+      "description":"When it comes to dressing your adorable baby boy, you want to ensure every detail is perfect, right down to their tiny toes. Our collection of Baby Boys Shoes is designed to provide comfort, style, and protection for your little prince’s feet.",
+      "image":"https://zawadibabyshop.co.ke/wp-content/uploads/2023/10/Baby-Boys-Shoes-1.jpg"
     },
     {
-      "id": 11,
-      "date": "2019-12-16",
-      "description": "MTA Vending Machine: MetroCard",
-      "category": "Transportation",
-      "amount": -116.39
+
+      "name":"Baby Girls Shoes",
+      "price":500,
+      "description":"When it comes to precious little feet taking their first steps, you want to ensure they’re comfortable, stylish, and well-protected. Our collection of baby girl’s shoes is designed with love and care, offering a delightful combination of fashion and functionality. Whether it’s her first birthday, a family gathering, or a casual day out, these shoes will not only make her look adorable but also keep her feet snug and safe.",
+      "image":"https://zawadibabyshop.co.ke/wp-content/uploads/2023/10/Baby-Girls-Shoes.jpg"
     },
     {
-      "id": 12,
-      "date": "2019-12-17",
-      "description": "Venmo, Pay Roommate for Rent",
-      "category": "Housing",
-      "amount": -975
+
+      "name":"Pre Walkers Shoes – The Perfect First Steps for Your Little One",
+      "price":600,
+      "description":"In the exciting journey of parenthood, there are few moments as precious as when your little one takes their first steps. To make those initial steps safe, comfortable, and stylish, our Pre Walkers Shoes are a must-have for your baby’s wardrobe.",
+      "image":"https://zawadibabyshop.co.ke/wp-content/uploads/2023/10/Pre-Walkers-Shoes-3.jpg"
     },
     {
-      "date": "2022-07-09",
-      "description": "Office lunch",
-      "category": "Food",
-      "amount": "2000",
-      "id": 13
-    },
-    {
-      "date": "2022-07-09",
-      "description": "Office lunch Wednesday",
-      "category": "Food",
-      "amount": "3000",
-      "id": 14
+      
+      "name":"Baby Prewalker Shoes",
+      "price":800,
+      "description":"Our Baby Prewalker Shoes are designed with soft and flexible materials, mimicking barefoot walking for healthy foot development. Lightweight and breathable, they provide optimal comfort during early steps.",
+      "image":"https://zawadibabyshop.co.ke/wp-content/uploads/2022/06/Baby-Prewalker-shoes-5-scaled.jpg"
     }
   ]
 }
