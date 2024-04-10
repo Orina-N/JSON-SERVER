@@ -5,28 +5,32 @@
       "name": "Toy Train Set",
       "category": "Toys",
       "price": 2999,
-      "description": "A fun toy train set with tracks and locomotive."
+      "description": "A fun toy train set with tracks and locomotive.",
+      "image":"https://m.media-amazon.com/images/I/71pgxLFTuYL.__AC_SX300_SY300_QL70_FMwebp_.jpg"
     },
     {
       "id":"Toy2",
       "name": "hot wheels track set",
       "category": "Toys",
       "price": 49999,
-      "description": "A fun toy car set with road tracks."
+      "description": "A fun toy car set with road tracks.",
+      "image":"https://www.toysrus.com.my/dw/image/v2/BDGJ_PRD/on…d4e2c7bf14df9188_118659_i1.jpg?sw=500&sh=500&q=75"
     },
     {
       "id":"Toy3",
       "name": "puzzles",
       "category": "Toys",
       "price": 1999,
-      "description": "A set of fun puzzles to engage your childs mind."
+      "description": "A set of fun puzzles to engage your childs mind.",
+      "image":"https://i.ebayimg.com/images/g/lPgAAOSwCO1k~mVU/s-l1600.webp"
     },
     {
       "id":"Toy4",
       "name": "Action figures",
       "category":"Toys",
       "price":3999,
-      "description":"Fun action figures children can use to simulate playing with their favorite heroes"
+      "description":"Fun action figures children can use to simulate playing with their favorite heroes",
+      "image":"https://ke.jumia.is/unsafe/fit-in/500x500/filters:fill(white)/product/01/813667/1.jpg?4090"
     }
   ],
   "clothes": [
